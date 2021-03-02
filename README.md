@@ -1,0 +1,1 @@
+A python implementation of the Ecoinvent pedigree matrix for estimating uncertainty data for life cycle inventories.
