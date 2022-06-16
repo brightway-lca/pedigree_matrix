@@ -44,7 +44,7 @@ class PedigreeMatrix(object):
     def get_values(self):
         assert self.factors, "Must provide Pedigree Matrix factors"
         data = version_1 if self.version == 1 else version_2
-        return [data[key][index - 1] for key, index in self.factors.iteritems()]
+        return [data[key][index - 1] for key, index in self.factors.items()]
 
     def __repr__(self):
         if not self.factors:
